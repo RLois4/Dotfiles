@@ -1,0 +1,73 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+shift+delete",
+        "command": "workbench.action.quit"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "vim.remap",
+        "args": {
+            "before": ["i", "ctrl+j"],
+            "after": ["<esc>"]
+        }
+    },
+    {
+        "key": "ctrl+shift+k ctrl+shift+t",
+        "command": "workbench.action.selectTheme"
+    },
+    {
+        "key": "ctrl+k ctrl+t",
+        "command": "-workbench.action.selectTheme"
+    },
+    {
+        "key": "ctrl+shift+g ctrl+shift+e",
+        "command": "vscode-neovim.ctrl-y",
+        "when": "editorTextFocus && neovim.ctrlKeysNormal.y && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-vscode-neovim.ctrl-y",
+        "when": "editorTextFocus && neovim.ctrlKeysNormal.y && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "ctrl+shift+t ctrl+shift+g",
+        "command": "vscode-neovim.send",
+        "when": "editorTextFocus && neovim.ctrlKeysInsert.y && neovim.init && neovim.mode == 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-vscode-neovim.send",
+        "when": "editorTextFocus && neovim.ctrlKeysInsert.y && neovim.init && neovim.mode == 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "redo"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-redo"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+shift+[BracketLeft]",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    }
+]
