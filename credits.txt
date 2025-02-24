@@ -1,4 +1,6 @@
 some configurations were taken from:
-https://github.com/adi1090x/polybar-themes
-https://github.com/gh0stzk/dotfiles
+https://github.com/adi1090x/polybar-themes/
+https://github.com/gh0stzk/dotfiles/
 https://nvchad.com/
+https://wallhaven.cc/
+some credit may be missing
